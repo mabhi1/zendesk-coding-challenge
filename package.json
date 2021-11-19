@@ -1,0 +1,22 @@
+{
+  "name": "zendesk-coding-challenge",
+  "version": "1.0.0",
+  "description": "zendesk coding challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mabhi1/zendesk-coding-challenge.git"
+  },
+  "author": "abhishek_mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mabhi1/zendesk-coding-challenge/issues"
+  },
+  "homepage": "https://github.com/mabhi1/zendesk-coding-challenge#readme",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
