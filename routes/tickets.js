@@ -26,8 +26,8 @@ router.get("/:id", async (req, res) => {
   });
   console.log(data);
   if (data.ticket) {
-    res.render("index", {
-      data: data.tickets,
+    res.render("ticket", {
+      data: data.ticket,
     });
   }
 });

@@ -1,6 +1,11 @@
-<table>
-    <tr><th>ID</th><th>Status</th><th>Subject</th></tr>
+<h2>All Tickets</h2><br>
     {{#each data}}
-    <tr><td><a href="/{{this.id}}">{{this.id}}</a></td><td>{{this.status}}</td><td>{{this.subject}}</td></tr>
+    <a href="/{{this.id}}">
+    <div class="card" id="{{this.status}}">
+        <div class="container">
+            <p class="id">Id : {{this.id}}</p>
+            <p class="status">Status : {{this.status}}</p>
+            <p class="subject">Subject : {{this.subject}}</p>
+        </div></a>
+    </div>
     {{/each}}
-</table>
