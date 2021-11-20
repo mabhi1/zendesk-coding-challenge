@@ -1,6 +1,6 @@
 <table>
     <tr><th>ID</th><th>Status</th><th>Subject</th></tr>
     {{#each data}}
-    <tr><td>{{this.id}}</td><td>{{this.status}}</td><td>{{this.subject}}</td></tr>
+    <tr><td><a href="/{{this.id}}">{{this.id}}</a></td><td>{{this.status}}</td><td>{{this.subject}}</td></tr>
     {{/each}}
 </table>

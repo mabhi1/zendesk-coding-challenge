@@ -17,4 +17,19 @@ router.get("/", async (req, res) => {
   }
 });
 
+router.get("/:id", async (req, res) => {
+  const { data } = await axios.get(url + req.params.id, {
+    auth: {
+      username: "amishr1@stevens.edu",
+      password: "Abhishek@1995",
+    },
+  });
+  console.log(data);
+  if (data.ticket) {
+    res.render("index", {
+      data: data.tickets,
+    });
+  }
+});
+
 module.exports = router;
