@@ -74,3 +74,10 @@ hr {
   float: left;
   width: fit-content;
 }
+.error {
+  background-color: rgba(255, 0, 0, 0.452);
+  width: fit-content;
+  margin: auto;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
