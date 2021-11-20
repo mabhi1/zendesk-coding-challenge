@@ -1,3 +1,6 @@
-{{#each data}}
-<div>{{this.id}}</div><br>
-{{/each}}
+<table>
+    <tr><th>ID</th><th>Status</th><th>Subject</th></tr>
+    {{#each data}}
+    <tr><td>{{this.id}}</td><td>{{this.status}}</td><td>{{this.subject}}</td></tr>
+    {{/each}}
+</table>
