@@ -81,3 +81,32 @@ hr {
   padding: 5px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.total {
+  float: left;
+}
+.pagination {
+  float: right;
+}
+.pagination-left {
+  float: left;
+  margin-right: 40px;
+}
+.pagination-right {
+  float: right;
+}
+.pagination-left:hover,
+.pagination-right:hover {
+  text-decoration: underline;
+}
+.page-header {
+  box-shadow: 0 0px 6px 0 rgba(0, 0, 0, 0.2);
+  background-color: ghostwhite;
+  width: 93%;
+  margin: auto;
+  padding: 15px;
+  height: 22px;
+  font-weight: 300;
+  text-shadow: 2px 2px 5px #00000061;
+  font-size: 18px;
+  border-radius: 8px;
+}

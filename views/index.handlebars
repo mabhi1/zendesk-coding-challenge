@@ -1,4 +1,9 @@
 <h2>All Tickets</h2><br>
+<div class="page-header">
+    <div class="total">Total : {{count}} &nbsp; This page : {{len}}</div> 
+    <div class="pagination"><div class="pagination-left">{{#if previous_page}} <a href="/?page={{previous}}"> Previous </a> {{/if}}</div>
+    <div class="pagination-right">{{#if next_page}} <a href="/?page={{next}}"> Next </a> {{/if}}</div></div><br><br>
+</div>
     {{#each data}}
     <a href="/{{this.id}}">
     <div class="card" id="{{this.status}}">
