@@ -14,8 +14,6 @@ Run this NodeJS application locally via npm
 
 $ npm install
 
-$ npm start
-
 ---
 
 Unit Testing:
@@ -26,8 +24,16 @@ $ npm test
 
 ---
 
+Starting the server:
+
+Run following command to start the server
+
+$ npm start
+
+---
+
 Usage:
 
-Go to the http://localhost:3000/ after installation
+Go to the http://localhost:3000/ after starting the server
 
 View details of a ticket by clicking on any of the tickets in the list
