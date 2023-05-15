@@ -1,4 +1,4 @@
-# zendesk-coding-challenge
+# Zendesk-coding-challenge
 
 Introduction:
 
